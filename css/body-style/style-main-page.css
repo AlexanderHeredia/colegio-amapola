@@ -1,5 +1,3 @@
-
-
 .bgc{
     background-image: url("/img/main-fondo.jpg");
     background-repeat: no-repeat;
@@ -17,7 +15,11 @@
     align-items: center;
 }
 
-h1{
+.title{
+    margin-right: 35px;
+}
+
+#title{
     font-size: 95px;
     color: rgb(255, 255, 255);
 }
@@ -27,3 +29,27 @@ h3{
     color: white;
 }
 
+.ubicacion{
+    margin: 105px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion{
+    width: 600px;
+    margin-right: 155px;
+    text-align: justify;
+}
+
+.map img{
+    border-radius: 45px;
+}
+
+.direccion h1{
+    font-size: 45px;
+}
+
+.direccion p{
+    font-size: 25px;
+}

@@ -38,7 +38,7 @@ nav ul{
     list-style: none;
     background-color: #3B437B;
     justify-content: center;
-    height: 64px;
+    height: 65px;
     align-items: center;
 }
 
@@ -53,6 +53,7 @@ li{
 
 li:hover{
     background-color:#EE3C3B;
+    height: 65px;
 }
 
 
@@ -60,4 +61,32 @@ li:hover{
     padding: 25px;
     background: rgb(238,60,59);
     background: linear-gradient(142deg, rgba(238,60,59,1) 0%, rgba(59,67,123,1) 68%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo-foot img{
+    width: 300px;
+    padding: 40px;
+}
+
+.linea{
+    height: 300px;
+    width: 1px;
+    background-color: white;
+}
+
+.foot-p{
+    width: 400px;
+    padding: 40px;
+    margin-left: 15px;
+    color: white;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
 }
