@@ -45,7 +45,7 @@ nav .ul-head{
     color: white;
     font-size: 20px;
     cursor: pointer;
-    padding: 20px;
+    padding: 10px 20px;
     font-weight: bolder;
     border-radius: 30px;
     transition: 0.5s;
@@ -56,6 +56,10 @@ nav .ul-head{
     background-color:#EE3C3B;
 }
 
+.li-head:active{
+    color: rgb(210, 209, 209);
+    background-color:#e23939;
+}
 
 .pie{
     padding: 25px;
@@ -102,12 +106,14 @@ nav .ul-head{
     font-size: 25px;
 }
 
-.correo p{
+.correo a{
     font-size: 20px;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 
-.correo p:hover{
+.correo a:hover{
     color: rgb(215, 205, 187);
 }
 

@@ -1,6 +1,4 @@
-.inicio{
-    display: none;
-}
+
 
 .bgc{
     background-image: url("/img/main-fondo.jpg");
@@ -74,10 +72,18 @@
     transition: 0.3s;
 }
 
+.direccion button a{
+    text-decoration: none;
+    color: black;
+}
+
+.direccion button a:hover{
+    color: white;
+}
+
 .direccion button:hover{
     border: rgb(185, 182, 182) solid;
     background-color: #3B437B;
-    color: white;
 }
 
 .direccion button:active{
