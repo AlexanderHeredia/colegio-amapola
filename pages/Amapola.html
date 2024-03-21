@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Colegio Amapola</title>
+    <link rel="stylesheet" href="/css/style-head.css">
+</head>
+<body>
+    <header class="head">
+
+        <div class="logo">
+            <div class="redes">
+
+            </div>
+            <div class="logo-img">
+                <img src="/img/logo-head.png" alt="">
+            </div>
+            <div class="tel">
+
+            </div>
+        </div>
+
+        <nav class="navegacion">
+            <ul class="ul-head">
+                <li class="li-head">Inicio</li>
+                <li class="li-head">Sobre nosotros</li>
+                <li class="li-head">Actividades</li>
+                <li class="li-head">Admision</li>
+                <li class="li-head">Oferta Academica</li>
+                <li class="li-head">Galeria</li>
+                <li class="li-head">Promociones y graduacion</li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="admisiones">
+        <article id="formulario-admision">
+            <h2>Formulario de Admisión</h2>
+            <p>Completa el formulario a continuación para iniciar el proceso de admisión al colegio:</p>
+            <form action="enviar_admision.php" method="post">
+                <label for="nombre-estudiante">Nombre del estudiante:</label>
+                <input type="text" id="nombre-estudiante" name="nombre-estudiante" required><br>
+                
+                <label for="fecha-nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required><br>
+                
+                <label for="grado-interes">Grado de interés:</label>
+                <select id="grado-interes" name="grado-interes">
+                    <option value="preescolar">Preescolar</option>
+                    <option value="primaria">Primaria</option>
+                    <option value="secundaria">Secundaria</option>
+                </select><br>
+                
+                <label for="nombre-padre">Nombre del padre/madre o tutor:</label>
+                <input type="text" id="nombre-padre" name="nombre-padre" required><br>
+                
+                <label for="email-contacto">Correo electrónico de contacto:</label>
+                <input type="email" id="email-contacto" name="email-contacto" required><br>
+                
+                <label for="telefono-contacto">Teléfono de contacto:</label>
+                <input type="tel" id="telefono-contacto" name="telefono-contacto" required><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+        
+    </section>
+
+    <section id="oferta-academica">
+        <h2>Oferta Académica</h2>
+        <article id="deportes">
+            <h3>Deportes</h3>
+            <p>Nuestra institución ofrece una amplia variedad de deportes y actividades físicas para estudiantes de todos los niveles. Participar en deportes es una excelente manera de mantenerse activo, conocer nuevos amigos y desarrollar habilidades de liderazgo y trabajo en equipo.</p>
+            <h2>Deportes Ofrecidos:</h2>
+            <ul>
+                <li>Fútbol</li>
+                <li>Baloncesto</li>
+                <li>Voleibol</li>
+                <li>Atletismo</li>
+            </ul>
+            <p>Para más información sobre cómo unirse a equipos deportivos o los horarios de entrenamiento, por favor, visita nuestra oficina de deportes o contáctanos a través de nuestro formulario en línea.</p>
+        </article>
+        <article id="informatica">
+            <h2>Sección de Informática</h2>
+            <p>Ofrecemos una amplia gama de programas de informática diseñados para preparar a los estudiantes para carreras exitosas en tecnología de la información. Nuestros cursos abarcan temas como desarrollo de software, redes, seguridad informática y más.</p>
+            <p>Para más información sobre nuestros programas de informática, por favor, ponte en contacto con el departamento de informática.</p>
+        </article>
+        <article id="materias-normales">
+            <h2>Materias Normales</h2>
+            <p>Nuestra universidad ofrece una amplia variedad de materias en áreas como ciencias, humanidades, artes, negocios y más. Los estudiantes tienen la oportunidad de explorar sus intereses y desarrollar habilidades en diferentes campos.</p>
+            <p>Para obtener más información sobre las materias disponibles y los requisitos del programa, por favor, consulta nuestro catálogo académico o comunícate con el departamento correspondiente.</p>
+        </article>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="contenedor-imagenes">
+            <img src="/img/a.png" width="100px">
+            <img src="/img/a1.png" width="100px">
+            <img src="/img/a2.png" width="100px">
+        </div>
+    </section>
+
+    <section id="promociones-graduacion">
+        <h2>Promociones y Graduación</h2>
+        
+        <article id="eventos-graduacion">
+            <h2>Eventos de Graduación</h2>
+            <p>Nuestro colegio celebra los logros de nuestros estudiantes con ceremonias de graduación memorables. Estos eventos marcan el comienzo de nuevos caminos y oportunidades para nuestros graduados.</p>
+            <ul>
+                <li>Graduación de Preescolar: 10 de junio de 2024</li>
+                <li>Graduación de Primaria: 12 de junio de 2024</li>
+                <li>Graduación de Secundaria: 15 de junio de 2024</li>
+            </ul>
+        </article>
+        
+        <article id="promociones">
+            <h2>Promociones Especiales para Graduados</h2>
+            <p>Para celebrar este importante hito, ofrecemos una serie de promociones especiales para nuestros graduados y sus familias:</p>
+            <ul>
+                <li>Descuentos en anuarios y recuerdos de graduación.</li>
+                <li>Promociones en futuros cursos de verano y talleres.</li>
+                <li>Acceso anticipado a inscripciones para el próximo ciclo académico.</li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="Visitanos">
+        <article id="Visitanos">
+            <h3><a href="https://web.facebook.com/colegioamapola">Facebook</a></h3>
+            <h3><a href="https://www.instagram.com/colegioamapola/">Instagram</a></h3>
+        </article>
+    </section>
+
+    <footer class="pie">
+        <div class="logo-foot">
+            <img src="/img/logo.png" alt="">
+        </div>
+
+        <div class="linea"></div>
+
+        <div class="foot-p">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptatum quia quae perferendis repellendus placeat eum! Magni, dignissimos ab. Quasi officia temporibus, ipsa minus laudantium sunt blanditiis ad possimus molestiae.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

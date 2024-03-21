@@ -8,4 +8,3 @@ document.getElementById("inicio").addEventListener("click", function() {
       }
     });
   });
-  

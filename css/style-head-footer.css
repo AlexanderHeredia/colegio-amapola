@@ -20,40 +20,40 @@ colores de la pagina
 .head{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-}
-
-.logo{
-    text-align: center;
-}
-
-.logo img{
-    width: 200px;
-    padding: 15px 0;
-}
-
-
-nav ul{
-    display: flex;
-    list-style: none;
-    background-color: #3B437B;
-    justify-content: center;
-    height: 65px;
+    background: rgb(238,60,59);
+    background: linear-gradient(142deg, rgba(238,60,59,1) 0%, rgba(59,67,123,1) 68%);
     align-items: center;
 }
 
-li{
-    
+
+.logo img{
+    width: 100px;
+    padding: 10px 0;
+    margin-left: 25px;
+}
+
+
+nav .ul-head{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.li-head{
     color: white;
     font-size: 20px;
     cursor: pointer;
     padding: 20px;
+    font-weight: bolder;
+    border-radius: 30px;
     transition: 0.5s;
 }
 
-li:hover{
+.li-head:hover{
+    border-radius: 30px;
     background-color:#EE3C3B;
-    height: 65px;
 }
 
 
@@ -63,29 +63,70 @@ li:hover{
     background: linear-gradient(142deg, rgba(238,60,59,1) 0%, rgba(59,67,123,1) 68%);
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
+.logo-foot{
+    margin-top: 25px;
+}
 
+.logo-foot p{
+    width: 450px;
+    color: white;
+    padding-right: 35px;
+    
+}
 
 .logo-foot img{
-    width: 300px;
-    padding: 40px;
+    width: 100px;
+    margin-left: 35%;
+    margin-bottom: 15px;
 }
 
 .linea{
-    height: 300px;
+    height: 350px;
     width: 1px;
-    background-color: white;
+    background-color: rgb(147, 144, 144);
 }
 
-.foot-p{
+.foot-contact{
+    display: flex;
+    flex-direction: column;
     width: 400px;
     padding: 40px;
     margin-left: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
+.correo h3{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.correo p{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.correo p:hover{
+    color: rgb(215, 205, 187);
+}
+
+.tel{
+    margin-top: 20px;
+}
+
+.tel h3{
+    font-size: 25px;
+}
+
+.tel p{
+    font-size: 20px;
+}
+
+.tel img{
+    width: 30px;
+    padding-right: 10px;
+}
 
 ::-webkit-scrollbar {
     display: none;

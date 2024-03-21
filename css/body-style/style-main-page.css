@@ -1,3 +1,7 @@
+.inicio{
+    display: none;
+}
+
 .bgc{
     background-image: url("/img/main-fondo.jpg");
     background-repeat: no-repeat;
@@ -15,17 +19,21 @@
     align-items: center;
 }
 
+.presentation img{
+    width: 300px;
+}
+
 .title{
     margin-right: 35px;
 }
 
 #title{
-    font-size: 95px;
+    font-size: 85px;
     color: rgb(255, 255, 255);
 }
 
-h3{
-    font-size: 78px; 
+#lema{
+    font-size: 68px; 
     color: white;
 }
 
@@ -52,4 +60,27 @@ h3{
 
 .direccion p{
     font-size: 25px;
+}
+
+.direccion button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 30px;
+    border: 3px black solid;
+    margin-top: 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.direccion button:hover{
+    border: rgb(185, 182, 182) solid;
+    background-color: #3B437B;
+    color: white;
+}
+
+.direccion button:active{
+    color: rgb(174, 171, 171);
+    background-color: #313765;
 }
