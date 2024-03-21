@@ -25,18 +25,23 @@ colores de la pagina
     align-items: center;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .logo img{
     width: 100px;
-    padding: 10px 0;
-    margin-left: 25px;
 }
+
 
 
 nav .ul-head{
     display: flex;
     list-style: none;
-    justify-content: center;
     align-items: center;
     margin-right: 15px;
 }
