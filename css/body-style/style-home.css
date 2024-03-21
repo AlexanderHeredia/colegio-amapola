@@ -1,4 +1,4 @@
-
+.inicio{display: block;}
 
 .bgc{
     background-image: url("/img/main-fondo.jpg");
@@ -43,8 +43,8 @@
 }
 
 .direccion{
-    width: 600px;
-    margin-right: 155px;
+    width: 500px;
+    margin-right: 110px;
     text-align: justify;
 }
 
@@ -53,11 +53,11 @@
 }
 
 .direccion h1{
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .direccion p{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .direccion button{
